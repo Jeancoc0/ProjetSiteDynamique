@@ -6,6 +6,10 @@
     </head>
     
     <body>
+        <header>
+            <img src="logo.jpg">
+            <p>Entreprise truc</p>
+        </header>
         <br/><h1>Modification du Profil</h1> <br/>
         <div class="navig">
             <h3>Menu</h3>

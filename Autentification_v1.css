@@ -1,3 +1,4 @@
+
 *{
     background-color: #e0d6fc;
 }
@@ -6,36 +7,26 @@ body
 {
     text-align: center;
 }
-fieldset{
+header{
+    position: absolute;
+        left: 5px;
+        top: 3px;
+}
+form{
     border:2px solid black;
     margin: 0 0 0 30%;
     width: 40%;
     
 }
 
-/*.idnom,.idprenom,.idemail,.idtel,.idPostal,.idVille,.idRue{
-    background-color: white;
-    margin-left: 0;
-}*/
-input{
+#idlogin,#idpassword{
     background-color: white;
 }
-select{
-    background-color: white;
-}
-#idenvoyer{
-    background-color: #e0d6fc;
-}
-#idreset{
-    background-color: #e0d6fc;
-}
-
-
 
 footer{
     position: absolute;
-        left: 42%;
-        bottom : 5px;
+    left: 42%;
+    bottom : 5px;
 }
 
 a{

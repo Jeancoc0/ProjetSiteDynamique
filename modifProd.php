@@ -7,10 +7,10 @@
     <body>
         <div class="navig">
             <h3>Menu</h3>
-            <a href="CreerProduit.php">Creer un produit</a>
+            <a href="CreerProduit_.php">Creer un produit</a>
             <a href="VoirProduits.php">Afficher les produits</a>
             <a href="">Voir les commentaires clients</a>
-            <a href="">Deconnexion</a>
+            <a href="Deconnexion.php">Deconnexion</a>
         
         </div>
         <h1>Modification du produit</h1>

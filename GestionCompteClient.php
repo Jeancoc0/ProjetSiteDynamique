@@ -7,7 +7,10 @@
         <title>Mon Compte Client</title>
     </head>
     <body>
-        
+        <header>
+            <img src="logo.jpg">
+            <p>Entreprise truc</p>
+        </header>
         <div class="navig">
             <h3>Menu</h3>
         <?php

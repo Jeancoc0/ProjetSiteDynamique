@@ -12,11 +12,15 @@ $_SESSION['Mot_de_passe'] = "";
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="Authentification.css">
+        <link rel="stylesheet" href="Autentification_v1.css">
         <title>Authentification</title>
     </head>
     
     <body>
+        <header>
+            <img src="logo.jpg">
+            <p>Entreprise truc</p>
+        </header>
         <div class="contenu">
         <h1>S'identifier</h1> <br/>
         

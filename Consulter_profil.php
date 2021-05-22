@@ -3,10 +3,14 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="Consulter_profil.css">
+        <link rel="stylesheet" href="Consulter_profil_.css">
         <title>Mon Profil</title>
     </head>
     <body>
+        <header>
+            <img src="logo.jpg">
+            <p>Entreprise truc</p>
+        </header>
         <br/><h1>Consulter mon profil</h1> <br/>
         <div class="navig">
             <h3>Menu</h3>
@@ -29,12 +33,12 @@
             ?><br/> 
         <?php
         $connect = mysqli_connect("127.0.0.1", "root", "","GestionProduits");
-        if($connect) {
+        /*if($connect) {
             echo "connexion réussie <br/>";
         }
         else {
             echo "echec de connexion";
-        }
+        }*/
         if(isset($_GET["Emailc"])){
                 //protection de données
                 $mailc = mysqli_real_escape_string($connect, $_GET["Emailc"]);
@@ -61,14 +65,14 @@
                     echo 'Date de Naissance : ' . $naissancec . "<br /></h3>";
                     mysqli_stmt_close($result);
                 
-                
+                /*
                     
                 if(mysqli_close($connect)) {
                     echo "deconnexion réussite <br />";}
 
                 else {
                     echo "echec de deconnexion". "<br />";  }
-                
+                */
                 }
         }
                   

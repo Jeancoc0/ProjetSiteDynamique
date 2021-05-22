@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 21 mai 2021, 09:30:33
+    Created on : 21 mai 2021, 09:20:17
     Author     : jeanc
 */
 
@@ -12,15 +12,41 @@ and open the template in the editor.
     background-color: #e0d6fc;
 }
 
+body
+{
+    text-align: center;
+}
 header{
     position: absolute;
         left: 5px;
         top: 3px;
 }
-.navig{
+fieldset{
+    border:2px solid black;
+    margin: 0 0 0 36%;
+    width: 25%;
     
-text-align: center;
 }
+label {
+ margin-top:10px;
+ display:block;
+ }
+ td{
+     height: 35px;
+ }
+input{
+    background-color: white;
+}
+select{
+    background-color: white;
+}
+textarea{
+    background-color: white;
+}
+#idenvoyer{
+    background-color: #e0d6fc;
+}
+
 
 a{
 padding: 5px 30px;

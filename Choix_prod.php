@@ -15,47 +15,25 @@ include 'connexion.php';
             $Choix_cat = $_POST['categorie_choix'];
             $Choix_marque = $_POST['marque_choix'];
             
-            if ($Choix_cat=='cnone'){
-                if ($Choix_marque=='mnone'){
-                header("location: VoirProduits.php?message2=none_none");}
-                else if ($Choix_marque=='Dell'){
-                header("location: VoirProduits.php?message2=none_Dell");}
-                else if ($Choix_marque=='Asus'){
-                header("location: VoirProduits.php?message2=none_Asus");}
-                else if ($Choix_marque=='Mac'){
-                header("location: VoirProduits.php?message2=none_Mac");}
+            echo $Choix_cat;
+            echo '<br/>';
+            echo $Choix_marque;
+            
+            if ($Choix_cat=='none'){
+                if ($Choix_marque=='none'){
+                    header("location: VoirProduits.php?CC=0&CM=0");
+                }
+                else{
+                    header("location: VoirProduits.php?CC=0&CM=".$Choix_marque);
+                }
             }
-            else if ($Choix_cat=='PC'){
-                if ($Choix_marque=='mnone'){
-                header("location: VoirProduits.php?message2=PC_none");}
-                else if ($Choix_marque=='Dell'){
-                header("location: VoirProduits.php?message2=PC_Dell");}
-                else if ($Choix_marque=='Asus'){
-                header("location: VoirProduits.php?message2=PC_Asus");}
-                else if ($Choix_marque=='Mac'){
-                header("location: VoirProduits.php?message2=PC_Mac");}
+            else if ($Choix_marque=='none'){
+                header("location: VoirProduits.php?CC=".$Choix_cat."&CM=0");
             }
-            else if ($Choix_cat=='Imprimante'){
-                if ($Choix_marque=='mnone'){
-                header("location: VoirProduits.php?message2=Imprimante_none");}
-                else if ($Choix_marque=='Dell'){
-                header("location: VoirProduits.php?message2=Imprimante_Dell");}
-                else if ($Choix_marque=='Asus'){
-                header("location: VoirProduits.php?message2=Imprimante_Asus");}
-                else if ($Choix_marque=='Mac'){
-                header("location: VoirProduits.php?message2=Imprimante_Mac");}
+            else {
+                header("location: VoirProduits.php?CC=".$Choix_cat."&CM=".$Choix_marque);
             }
-            else if ($Choix_cat=='Scanner'){
-                if ($Choix_marque=='mnone'){
-                header("location: VoirProduits.php?message2=Scanner_none");}
-                else if ($Choix_marque=='Dell'){
-                header("location: VoirProduits.php?message2=Scanner_Dell");}
-                else if ($Choix_marque=='Asus'){
-                header("location: VoirProduits.php?message2=Scanner_Asus");}
-                else if ($Choix_marque=='Mac'){
-                header("location: VoirProduits.php?message2=Scanner_Mac");}
-            }
-            else{}
+            
         ?>
     </body> 
 </html>

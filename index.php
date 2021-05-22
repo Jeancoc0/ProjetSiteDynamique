@@ -10,14 +10,17 @@ if (empty($_COOKIE['log']))
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index_v1.css">
         <title>Accueil</title>
     </head>
+    
+    <img src="logo.jpg">
     <body>
        
         
 
         <header>
+            
             <h1>E-commerce de oieuzbrj</h1>
 
             <a href="Authentification.php">S'identifier </a>

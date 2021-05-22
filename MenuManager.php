@@ -7,10 +7,13 @@
         <title>Mon Compte manager</title>
     </head>
     <body>
-        
+        <header>
+            <img src="logo.jpg">
+            <p>Entreprise truc</p>
+        </header>
         <div class="navig">
             <h3>Menu</h3>
-            <a href="CreerProduit.php">Creer un produit</a>
+            <a href="CreerProduit_.php">Creer un produit</a>
             <a href="VoirProduits.php">Afficher les produits</a>
             <a href="">Voir les commentaires clients</a>
             <a href="Deconnexion.php">Deconnexion</a>
